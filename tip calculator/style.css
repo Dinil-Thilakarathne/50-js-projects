@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --clr-primary: rgba(0,213,255,1);
+    --clr-container-bg: #fff;
+    --clr-btn-bg: rgb(0, 122, 209);
+    --clr-btn-hover-bg: rgba(0,175,255,1);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-primary);
+    font-family: 'poppins';
+    position: relative;
+}
+form {
+    margin: 50px auto;
+    min-width: 500px;
+    padding: 20px 40px;
+    border: 2px solid #ccc;
+    border-radius: 1rem;
+    background-color: var(--clr-container-bg);
+}
+.input-groups{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input[type='number'],
+#tipPercentage{
+    padding: .25rem .75rem;
+    border-radius: .5rem;
+}
+
+button {
+    background-color: var(--clr-btn-bg);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: var(--clr-btn-hover-bg);
+}
+.total-amount {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.attribute{
+    position: absolute;
+    bottom: 10px;
+}

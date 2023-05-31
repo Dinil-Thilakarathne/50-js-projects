@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="input-groups">
+            <div>
+                <label for="billAmount">Bill Amount:</label>
+                <input type="number" id="billAmount" placeholder="$ 00.00">
+            </div>
+    
+            <div>
+                <label for="tipPercentage">Tip Percentage:</label>
+                <select id="tipPercentage">
+                    <option value="0.1">10%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.20">20%</option>
+                </select><br>
+            </div>
+        </div>
+        <button type="button" id="calculateBtn">Calculate Tip</button>
+
+        <div class="total-amount">
+            <span>Total Amount : $
+                <span id="totalAmount">00.00</span>
+            </span>
+        </div>
+    </form>
+
+    <div class="attribute">
+        Created by <a href="">Dinil Thilakarathne</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
