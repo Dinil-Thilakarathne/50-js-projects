@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- boxicon cdn  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- app  -->
+    <div class="todo-app">
+        <!-- app header  -->
+        <h1>Todo App</h1>
+
+        <!-- input group  -->
+        <div class="input-group">
+            <input type="text" name="" id="taskInput" placeholder="Add a task" required >
+            <button class="btn add-task-btn" onclick="addTask()">
+                Add Task
+            </button>
+        </div>
+
+
+        <!-- task list  -->
+        <ul id="taskList"></ul>
+
+        <!-- custom js file  -->
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
