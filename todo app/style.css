@@ -16,14 +16,14 @@
     --clr-bg-1:#fc466b;
     --clr-bg-2:#3f5efb;
     --clr-app-bg:#fff;
-    --clr-item-bg:#f3f6fc;
+    --clr-item-bg:#e7eefc;
     --clr-item-hover-bg:#dbe7ff;
 
     /* typography */
 
     /* font sizes  */
     --fs-body:16px;
-    --fs-regular:1.4rem;
+    --fs-regular:1.2rem;
     --fs-large:2rem;
 }
 /*
@@ -50,7 +50,8 @@ body{
     border-radius: .5rem;
     cursor: pointer;
     color: var(--clr-btn-text);
-    font-weight: bold;
+    font-weight: 500;
+    font-size: var(--fs-regular);
 }
 
 /* app  */
@@ -108,9 +109,11 @@ li * {
 .compelete-btn{
     color: var(--clr-compelete-btn);
     cursor: pointer;
+    font-size: var(--fs-regular);
 }
 .delete-btn{
     color: var(--clr-delete-btn);
+    font-size: var(--fs-regular);
     cursor: pointer;
 }
 
@@ -122,3 +125,7 @@ li * {
     pointer-events: none;
 }
 
+.attribute{
+    position: absolute;
+    bottom: 10px;
+}

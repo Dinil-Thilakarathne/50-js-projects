@@ -8,9 +8,11 @@
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/simple%20calculator)
     - [Live demo](https://dinil-thilakarathne.github.io/50-js-projects/simple%20calculator/)
 - To-Do List
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/todo%20app)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-js-projects/todo%20app/)
+- Tip Calculator
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/tip%20calculator)
     - [Live demo](https://dinil-thilakarathne.github.io/50-js-projects/tip%20calculator/)
-- Tip Calculator
 - Age Calculator
 - BMI Calculator
 

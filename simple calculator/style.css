@@ -52,3 +52,8 @@ button{
     width: 100%;
     background-color: #fff;
 }
+
+.attribute{
+    position: absolute;
+    bottom: 10px;
+}
