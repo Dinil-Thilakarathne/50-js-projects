@@ -56,8 +56,7 @@ body{
 
 /* app  */
 .todo-app{
-    min-width: 80%;
-    max-width: 800px;
+    min-width: 600px;
     margin: 40px;
     padding: .5rem;
     background-color: var(--clr-app-bg);

@@ -20,6 +20,15 @@ function addTask() {
     taskInput.value = '';
   }
 }
+
+// add new task when Enter key pressed 
+const taskInput = document.getElementById('taskInput');
+taskInput.addEventListener('keypress', function (event) {
+    if (event.key === 'Enter') {
+      addTask()
+    }
+});
+
 // Function to delete a task
 function deleteTask(id){
   tasks = tasks.filter(task => task.id !== id);
@@ -87,9 +96,3 @@ function renderTasks() {
 // Initial rendering of tasks
 renderTasks()
 
-const taskInput = document.getElementById('taskInput');
-taskInput.addEventListener('keypress', function (event) {
-    if (event.key === 'Enter') {
-      addTask()
-    }
-});
