@@ -17,6 +17,8 @@
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/age%20calculator)
     - [Live demo](https://dinil-thilakarathne.github.io/50-js-projects/age%20calculator/)
 - BMI Calculator
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/bmi%20calculator)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-js-projects/bmi%20calculator/)
 
 - Digital Clock
 - Analog Clock
