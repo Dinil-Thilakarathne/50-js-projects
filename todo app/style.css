@@ -128,3 +128,15 @@ li * {
     position: absolute;
     bottom: 10px;
 }
+
+@media (max-width:768px) {
+    .todo-app{
+        min-width: 320px;
+        max-width: 350px;
+    }
+    .input-group{
+        padding-top: 10px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
