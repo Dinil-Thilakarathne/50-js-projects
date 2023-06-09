@@ -21,6 +21,8 @@
     - [Live demo](https://dinil-thilakarathne.github.io/50-js-projects/bmi%20calculator/)
 
 - Digital Clock
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/digital%20clock)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-js-projects/digital%20clock/)
 - Analog Clock
 - Alarn Clock
 - Countdown Timer
