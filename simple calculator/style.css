@@ -14,7 +14,7 @@ body {
     font-family: 'poppins';
 }
 .calculator {
-    height: 300px;
+    height: 350px;
     width: 400px;
     padding: 50px;
     background-color: #0A2647;
@@ -35,6 +35,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 input[type='text'],
 button,
@@ -56,4 +58,10 @@ button{
 .attribute{
     position: absolute;
     bottom: 10px;
+}
+
+@media (max-width:768px) {
+    .calculator{
+        width: 300px;
+    }
 }
