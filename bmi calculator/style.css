@@ -64,3 +64,9 @@ button:hover{
     position: absolute;
     bottom: 10px;
 }
+
+@media (max-width:768px) {
+    .calculator{
+        width: 300px;
+    }
+}
