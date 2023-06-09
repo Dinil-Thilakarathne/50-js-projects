@@ -71,3 +71,13 @@ button:hover{
     position: absolute;
     bottom: 10px;
 }
+
+@media (max-width:768px) {
+    form{
+        min-width: 300px ;
+        max-width: 350px;
+    }
+    .input-groups{
+        flex-direction: column;
+    }
+}
