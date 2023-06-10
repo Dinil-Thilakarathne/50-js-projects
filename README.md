@@ -24,6 +24,8 @@
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/digital%20clock)
     - [Live demo](https://dinil-thilakarathne.github.io/50-js-projects/digital%20clock/)
 - Analog Clock
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/analog%20clock)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/analog%20clock)
 - Alarn Clock
 - Countdown Timer
 - Pomodoro Timer

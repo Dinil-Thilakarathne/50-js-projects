@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --clr-primary: rgba(0,213,255,1);
+    --clr-secondary: #333;
+    --clr-container-bg: #fff;
+    --clr-btn-bg: rgb(0, 122, 209);
+    --clr-btn-hover-bg: rgba(0,175,255,1);
+    --clock-primary-shadow : -2px 2px 15px #333333b4;
+    --clock-inset-shadow:0 -15px 15px rgba(255, 255, 255, 0.05),inset 0 -15px 15px rgba(255, 255, 255, 0.05), 0 15px 15px rgba(0, 0, 0, 0.3),inset 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-primary);
+    font-family: 'poppins';
+    position: relative;
+}
+.clock {
+	min-height: 18em;
+	min-width: 18em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--clr-container-bg);
+	background-image: url("https://imvpn22.github.io/analog-clock/clock.png");
+	background-position: center center;
+	background-size: cover;
+	border-radius: 50%;
+	border: 4px solid var(--clr-container-bg);
+	box-shadow: var(--clock-inset-shadow);
+	transition: all ease 0.2s;
+}
+.clock:before {
+	content: "";
+	height: 0.75rem;
+	width: 0.75rem;
+	background-color: var(--clr-secondary);
+	border: 2px solid var(--clr-container-bg);
+	position: absolute;
+	border-radius: 50%;
+	z-index: 1000;
+	transition: all ease 0.2s;
+}
+.hour,
+.min,
+.sec {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+}
+.hour {
+	height: 10em;
+	width: 10em;
+}
+.hour:before {
+	content: "";
+	position: absolute;
+	height: 50%;
+	width: 6px;
+	background-color: var(--clr-primary);
+	border-radius: 6px;
+    box-shadow: var(--clock-primary-shadow);
+}
+.min {
+	height: 12em;
+	width: 12em;
+}
+.min:before {
+	content: "";
+	height: 50%;
+	width: 4px;
+	background-color: var(--clr-primary);
+	border-radius: 4px;
+    box-shadow: var(--clock-primary-shadow);
+}
+.sec {
+	height: 13em;
+	width: 13em;
+}
+.sec:before {
+	content: "";
+	height: 60%;
+	width: 2px;
+	background-color: #f00;
+	border-radius: 2px;
+}
+
+.attribute{
+    position: absolute;
+    bottom: 10px;
+}
