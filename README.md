@@ -26,7 +26,9 @@
 - Analog Clock
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/analog%20clock)
     - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/analog%20clock)
-- Alarn Clock
+- Alarm Clock
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/alarm%20clock)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/alarm%20clock)
 - Pomodoro Timer
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/pomodoro%20timer)
     - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/pomodoro%20timer)
