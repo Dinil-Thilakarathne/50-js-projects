@@ -27,7 +27,9 @@
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/analog%20clock)
     - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/analog%20clock)
 - Alarn Clock
-- Countdown Timer
+- Stop Watch
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/stopwatch)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/stopwatch)
 - Pomodoro Timer
 - Stopwatch
 

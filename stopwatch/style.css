@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --clr-primary: rgba(0,213,255,1);
+    --clr-secondary: #333;
+    --clr-container-bg: #cecece;
+    --clr-btn-bg: rgb(0, 122, 209);
+    --clr-btn-hover-bg: rgba(0,175,255,1);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-primary);
+    font-family: 'poppins';
+    position: relative;
+}
+.container{
+    height: 300px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-container-bg);
+    border: none;
+    border-radius: 10px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+  
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: var(--clr-btn-bg);
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+button:hover{
+    background-color: var(--clr-btn-hover-bg);
+}
+  
+  
+.attribute{
+    position: absolute;
+    bottom: 10px;
+}
