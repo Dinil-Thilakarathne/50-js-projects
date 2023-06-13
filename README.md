@@ -27,11 +27,12 @@
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/analog%20clock)
     - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/analog%20clock)
 - Alarn Clock
-- Stop Watch
+- Pomodoro Timer
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/pomodoro%20timer)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/pomodoro%20timer)
+- Stopwatch
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/stopwatch)
     - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/stopwatch)
-- Pomodoro Timer
-- Stopwatch
 
 
 ## 🔥 Intermediate Level:

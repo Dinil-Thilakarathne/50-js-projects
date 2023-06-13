@@ -3,30 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatch</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1 class="container_header">
-            Stop Watch
+            Pomodoro Timer
         </h1>
-        <div class="timer">
-            <div id="hours">00</div>
-            <div>:</div>
-            <div id="minutes">00</div>
-            <div>:</div>
-            <div id="seconds">00</div>
-        </div>
-        <div class="btn-group">
-            <button onclick="startTimer()">Start</button>
-            <button onclick="stopTimer()">Stop</button>
-            <button onclick="resetTimer()">Reset</button>
-            
+        <h1 class="timer">25:00</h1>
+        <div class="controls">
+          <button id="startBtn">Start</button>
+          <button id="resetBtn">Reset</button>
         </div>
     </div>
 
-      
     <div class="attribute">
         Create by 
         <a href="https://linktr.ee/sona_code">

@@ -34,25 +34,20 @@ body {
     border: none;
     border-radius: 10px;
 }
-
 .timer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 48px;
-    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 2rem;
 }
   
 button {
-    margin: 10px 5px;
-    padding: 10px 20px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 4px;
     background-color: var(--clr-btn-bg);
-    cursor: pointer;
     color: #fff;
-    font-size: 18px;
+    cursor: pointer;
 }
 button:hover{
     background-color: var(--clr-btn-hover-bg);
@@ -60,7 +55,7 @@ button:hover{
 button:active {
     transform: translateY(2px);
 }
-  
+
 .attribute{
     position: absolute;
     bottom: 10px;
