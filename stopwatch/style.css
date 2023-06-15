@@ -39,10 +39,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    column-gap: 5px;
     font-size: 48px;
     font-weight: bold;
 }
-  
+
 button {
     margin: 10px 5px;
     padding: 10px 20px;
