@@ -40,6 +40,8 @@
 ## 🔥 Intermediate Level:
 
 - Currency Converter
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/currency%20converter)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/currency%20converter)
 - Length Converter
 - Weight Converter
 - Temperature Converter
