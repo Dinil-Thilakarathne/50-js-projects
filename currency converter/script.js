@@ -11,11 +11,13 @@ convertBtn.addEventListener('click', () => {
 
   if (isNaN(amount) || amount <= 0) {
     alert('Invalid amount. Please enter a positive number.');
-    conversionResult.style.color = 'red'
+    conversionResult.style.color = 'red';
     conversionResult.textContent = 'Invalid amount. Please enter a positive number.'
     return;
-  }
+    }
 
+  conversionResult.style.color = 'inherit';
+  
   if (!['USD', 'LKR', 'INR'].includes(baseCurrency) || !['USD', 'LKR', 'INR'].includes(targetCurrency)) {
     alert('Invalid currency type. Please select from USD, LKR, or INR.');
     return;
