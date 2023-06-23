@@ -4,8 +4,8 @@
     --clr-primary: rgba(0,213,255,1);
     --clr-secondary: #0A2647;
     --clr-container-bg: #cecece;
-    --clr-btn-bg: rgb(0, 122, 209);
-    --clr-btn-hover-bg: rgba(0,175,255,1);
+    --clr-btn-bg: #fd1afd;
+    --clr-btn-hover-bg: #d319d3;
 }
 *{
     box-sizing: border-box;
