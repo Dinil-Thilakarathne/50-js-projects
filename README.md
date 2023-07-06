@@ -48,10 +48,14 @@
 - Weight Converter
     - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/weight%20converter)
     - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/weight%20converter)
-- Temperature Converter
-- Data Size converter
+- Data Size Converter
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/data%20size%20converter)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/data%20size%20converter)
+
 
 - Color Generator
+    - [Source Code](https://github.com/Dinil-Thilakarathne/50-css-projects/tree/main/random%20color%20generator)
+    - [Live demo](https://dinil-thilakarathne.github.io/50-css-projects/random%20color%20generator)
 - Joke Generator
 - Emoji Generator
 - Password Generator
