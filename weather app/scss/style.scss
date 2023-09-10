@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins";
+    background-color: #1e293b;
+}
+
+.card{
+    width: max(90%, 300px);
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+
+    & .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        & input{
+            border: 0;
+            outline: 0;
+            background: #ebfffc;
+            color: #555;
+            padding: 10px 25px;
+            height: 60px;
+            border-radius: 24px;
+            width: 80%;
+            font-size: 18px;
+        }
+
+        & button{
+            border: 0;
+            outline: 0;
+            background: #ebfffc;
+            border-radius: 50%;
+            width: 60px;
+            aspect-ratio: 1;
+            cursor: pointer;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    & .weather{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        &-icon{
+            width: 170px;
+            margin-top: 30px;
+        }
+
+        & h1{
+            font-size: 80px;
+            font-weight: 500;
+        }
+
+        & h2{
+            font-size: 45px;
+            font-weight: 400;
+            margin-top: -10px;
+        }
+
+        & .details{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin-top: 50px;
+            gap: 20px;
+
+            & .col{
+                display: flex;
+                align-items: center;
+                text-align: left;
+
+                & img{
+                    width: 40px;
+                    margin-right: 10px;
+                }
+
+                & .humidity,
+                & .wind{
+                    font-size: 28px;
+                    margin-top: -6px;
+                }
+            }
+        }
+    }
+
+    @media  (min-width: 458px) {
+        .weather {
+            .details{
+                flex-direction: row;
+            }
+        }
+    }
+    @media  (min-width: 768px) {
+        .weather{
+            flex-direction: row;
+            justify-content: space-around;
+
+            .details{
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-around;
+                gap: 50px;
+            }
+        }
+    }
+}
