@@ -1,6 +1,12 @@
 # 50+ JS Projects 
-
 📢 Exciting news! Introducing our "50 Projects to Master Skills" series, designed to take your web development abilities to new heights. 🌟 Join us on this journey as we explore a wide range of projects that will enhance your skills and expand your coding repertoire. Let's dive in and level up! 💻✨
+
+## 🔨 Beginner Level:
+
+| Project Name       | Source Code                                                    |                                              |
+| ------------------ | -------------------------------------------------------------- | -------------------------------------------------------- |
+| Weather App | [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/weather%20app) | 
+| Todo App | [Source Code](https://github.com/Dinil-Thilakarathne/50-js-projects/tree/main/todo-app) | 
 
 ## 🔨 Beginner Level:
 

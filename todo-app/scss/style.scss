@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #374151;
+    font-family: "Poppins";
+}
+
+.todo-app{
+    width: min(80%, 1024px);
+    padding: 20px 10px;
+    background-color: #0c4a6e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+
+    & h1{
+        color: #fff;
+        padding-bottom: 20px;
+    }
+    &__input-form{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        & input{
+            width: 100%;
+            padding: 10px 20px;
+            border: 2px solid #3b82f6;
+            border-radius: 10px;
+            outline: none;
+            font-size: 1.25rem;
+        }
+    }
+
+    &__list{
+        width: 80%;
+        margin-top: 10px;
+        list-style: none;
+
+        & .task{
+            height: 2rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            cursor: pointer;
+
+            & .container{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                & .circle{
+                    height: 80%;
+                    aspect-ratio: 1;
+                    border: none;
+                    border-radius: 50%;
+                    background-color: #4a7e9c;
+                }
+            }
+            & .close-icon{
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+                z-index: 9;
+                font-size: 1.25rem;
+            }
+
+            &.completed{
+                & .container{
+                    & .circle{
+                        background-color: #3b82f6;
+                    }
+                    & span{
+                        text-decoration: line-through;
+                    }
+                }
+                & .close-icon{
+                    text-decoration: line-through;
+                    pointer-events: none;
+                }
+            }
+
+        }
+    }
+}

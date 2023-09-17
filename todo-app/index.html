@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="todo-app">
+      <h1 class="todo-app__header">
+        Todo App 
+      </h1>
+      <div class="todo-app__input-form">
+        <input type="text" placeholder="//press enter to add new task" class="task-input">
+      </div>
+      <ul class="todo-app__list">
+        <li class="task">
+          <div class="container">
+            <div class="circle"></div>
+            <span class="task-name">Sample task</span>
+          </div>
+          <i class='bx bx-x close-icon'></i>
+        </li>
+      </ul>
+    </div>    
+    <script type="module" src="/main.js" defer></script>
+  </body>
+</html>
